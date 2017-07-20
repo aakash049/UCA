@@ -1,0 +1,16 @@
+// NULL -> Timezone
+// Data Type -> long
+// Header file -> <sys/time.h>
+
+struct timeval before,after;
+gettimeofday(&before,NULL);
+-x-x-x-x-x-x-x-x-x-x-x-x-x
+gettimeofday(&after,NULL);
+
+struct timeval{
+    tv_sec;
+    tv_usec;
+};
+
+long t1 = tv_sec*1000000 + tv_usec; // converting seconds to microseconds
+
