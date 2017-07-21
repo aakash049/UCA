@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 void insertion(int* arr, int n){
-    for(int i=1;i<n;i++){
-        int j=i-1;
-        while( j >= 0 && arr[i] < arr[j]){
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+    for(int i = 1; i < n; i++){
+        int j = i-1;
+        int val = arr[i];
+        while( j >= 0 && val < arr[j]){
+            arr[j+1] = arr[j];
             j--;
         }
+        arr[j+1] = val;
     }
 }
 
