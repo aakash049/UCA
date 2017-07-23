@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int bang(int x){
-    //return ((x ^ 0xffffffffU) + 1UL) >> 32;
-    return 1 >> x;
+    //return 1 >> (x%31);
+    return ((x >> 31) + 0x01) & ((~x+1) >> 31 + 0x01);
 }
 
 int main(){
