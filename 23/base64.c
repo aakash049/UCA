@@ -10,6 +10,5 @@ int main(){
     for(char x = '0'; x <= '9'; x++,index++)
         encoderArray[index] = x;
     encoderArray[index] = '/';
-    encoderArray[index+1] = '#';
-    
+    // PENDING    
 }
