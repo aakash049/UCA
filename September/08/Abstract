@@ -1,0 +1,16 @@
+------------------------------------------------ ABSTRACT CLASS & ABSTRACT METHODS ----------------------------------------------------------
+Abstract function cannot reside in a non-abstract class but a non-abstract class can have 0 or more non-abstract functions in it.
+
+in case of interface, all data members are 'public final static'
+
+"static final" will behave as c++ macro.
+
+a function cannot be more restrictive than it's base class.
+
+cannot override functions marked as final or static.
+
+checked exceptions ----> Exception Handler checked during compile time. (e.g. file handling)
+unchecked exceptions -----> Exception Handler checked during runtime. (e.g. divide by 0)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,28 @@
+-------------------------- INHERITANCE ------------------------
+class abc {
+    **********
+}
+
+class xyz extends abc {
+    **********
+}
+----------------------------------------------------------------------------
+when interface is inherited "extends" is replaced by "implements"
+
+multiple inheritance is not possible in java.
+
+but, multiple interfaces can be implemented by 1 class.
+
+e.g.
+class1 extends class2
+class1 implements interface1
+interface1 extends inteface2
+
+"default" class, member is visible only within file.
+
+class members can be --> default, public, private, protected.
+
+package statement should be written before import statement
+
+protected members in java/python are different from C++.  ???????
+----------------------------------------------------------------------------

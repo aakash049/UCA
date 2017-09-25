@@ -1,0 +1,36 @@
+class System {
+    static Outstream out; // in System.out.println()
+}
+
+"is a" / "has a" relationship
+
+in java final is same as c++ const
+
+final can be initialised at the time of declaration / using constructor only
+
+cannot override final
+
+final can be a function or even a class.
+
+cannot inherit final class.
+
+cannot override final method
+
+static variables are given memory in "method area".
+
+static functions can access only static data members.
+
+static functions can call functions which require objects by passing object as parameter.
+
+static initializer block. executes before main (during load time)
+
+e.g ---------->      static {
+                        --------
+                     }
+
+purpose of static initializer block is to initialize static members.
+
+whenever we make a parameterised constructor , we should always try to create a non parameterised constructor too.
+
+this can be used to call a different parameterised constructor within one constructor.
+
